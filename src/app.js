@@ -38,15 +38,15 @@ app.get('/products', async (req, res) => {
 
 app.get('/products/:id', async (req, res) => {
     const { id } = req.params
-    const products = await productManager.getProducts()
+    const product = await productManager.getProductById(id)
 
-    const productId = products.find(prod => prod.id == id)
-
-    if(!productId){
-        res.send({Error: `El producto con el ID: ${id} es inexistente. Pruebe ingresando otro ID`})
+    if(!product){
+        res.status(404).send({
+            Error: `El producto con el ID: ${id} es inexistente. Pruebe ingresando otro ID`
+        })
     }
     else {
-        res.send(productId)
+        res.send(product)
     }
 
 })

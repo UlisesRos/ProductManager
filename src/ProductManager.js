@@ -45,7 +45,7 @@ class ProductManager {
         
         const productId = product.find(prod => prod.id == id)
 
-        return !productId ? "ID INEXISTENTE" : productId
+        return productId
     }
     
     async updateProduct (id, edit) {
