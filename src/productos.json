@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Dulce de leche",
+    "description": "Sin description",
+    "price": 500,
+    "thumbnail": "No tiene img",
+    "code": "a20",
+    "stock": 15,
+    "id": 1
+  },
+  {
+    "title": "Crema de Leche",
+    "description": "Sin description",
+    "price": 365,
+    "thumbnail": "No tiene img",
+    "code": "a21",
+    "stock": 15,
+    "id": 2
+  },
+  {
+    "title": "Manteca",
+    "description": "Sin description",
+    "price": 499,
+    "thumbnail": "No tiene img",
+    "code": "a22",
+    "stock": 15,
+    "id": 3
+  },
+  {
+    "title": "Agua Mineral",
+    "description": "Sin description",
+    "price": 200,
+    "thumbnail": "No tiene img",
+    "code": "a23",
+    "stock": 15,
+    "id": 4
+  },
+  {
+    "title": "Milanesa",
+    "description": "Sin description",
+    "price": 180,
+    "thumbnail": "No tiene img",
+    "code": "a24",
+    "stock": 15,
+    "id": 5
+  },
+  {
+    "title": "Azucar",
+    "description": "Sin description",
+    "price": 650,
+    "thumbnail": "No tiene img",
+    "code": "a25",
+    "stock": 15,
+    "id": 6
+  },
+  {
+    "title": "Tomate",
+    "description": "Sin description",
+    "price": 150,
+    "thumbnail": "No tiene img",
+    "code": "a26",
+    "stock": 15,
+    "id": 7
+  },
+  {
+    "title": "Carbon",
+    "description": "Sin description",
+    "price": 230,
+    "thumbnail": "No tiene img",
+    "code": "a27",
+    "stock": 15,
+    "id": 8
+  },
+  {
+    "title": "Leche",
+    "description": "Sin description",
+    "price": 199,
+    "thumbnail": "No tiene img",
+    "code": "a28",
+    "stock": 15,
+    "id": 9
+  },
+  {
+    "title": "Chocolate",
+    "description": "Sin description",
+    "price": 820,
+    "thumbnail": "No tiene img",
+    "code": "a29",
+    "stock": 15,
+    "id": 10
+  }
+]
